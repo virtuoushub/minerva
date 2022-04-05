@@ -1,3 +1,9 @@
+# Archival Note
+
+This project was built before [Remix Stacks](https://remix.run/blog/remix-stacks). That is the spiritual successor to what this project was intended to be.
+
+---
+
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
