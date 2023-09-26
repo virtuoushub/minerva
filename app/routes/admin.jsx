@@ -1,4 +1,4 @@
-import { Outlet, Link, useLoaderData } from "remix";
+import { Link, Outlet, useLoaderData } from "@remix-run/react";
 import { getPosts } from "~/post";
 import adminStyles from "~/styles/admin.css";
 
