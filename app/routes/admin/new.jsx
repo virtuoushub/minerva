@@ -1,6 +1,7 @@
 import invariant from "tiny-invariant";
 import { createPost } from "~/post";
-import { useTransition, useActionData, Form, redirect } from "remix";
+import { redirect } from "@remix-run/node";
+import { Form, useActionData, useTransition } from "@remix-run/react";
 
 export const action = async ({ request }) => {
   await new Promise((res) => setTimeout(res, 1000));
