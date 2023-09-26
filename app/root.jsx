@@ -1,7 +1,14 @@
-import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from "@remix-run/react";
+import {
+  Links,
+  LiveReload,
+  Meta,
+  Outlet,
+  Scripts,
+  ScrollRestoration,
+} from "@remix-run/react";
 
 export function meta() {
-  return { title: "New Remix App" };
+  return [{ title: "New Remix App" }];
 }
 
 export default function App() {
